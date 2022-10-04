@@ -1,0 +1,164 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+        <script src="js/validation.js" defer></script>
+        <link rel="stylesheet" type="text/css"
+            href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <header>
+        <div class="logo">
+            <h1>Dynasty<span>  Tour</span></h1>
+        </div>
+
+    </header>
+   
+
+    <!-- Main Area-->
+    <div id="ddy">
+        <!-- Checkbox and Label for Login -->
+        <input type="checkbox" name="aa" id="login_checkbox">
+        <label for="login_checkbox" class="click-login"> Login </label>
+        <!-- Checkbox and Label for Sign up -->
+        <label for="sign_up_checkbox" class="click-sign_up"> Sign up </label>
+        <input type="checkbox" name="aa" id="sign_up_checkbox">
+        <!-- Login form-->
+        <div class="login_form">
+            <div class="text">
+                LOGIN
+            </div>
+            <label for="login_checkbox" id="temp">x</label>
+
+            <form action="login.php" method="post"   >
+
+                <label for="username">Name</label>
+                <input type="text" placeholder="username" id="username" name="username" 
+                value="">
+                
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password" name="pswd">
+
+                <button>Log In </button> <a href="#"><p> Forgot Password  </p></a>
+
+
+            </form>
+        </div>
+
+        <!-- Sign_up form-->
+        <div class="sign_up_form">
+            <div class="text">
+                Sign Up
+            </div>
+            <label for="sign_up_checkbox" id="temp">x</label>
+
+            <form action="process_signup.php" method="post" id="signup" >
+                <table >
+                    <tr>
+                        <td>   <label for="fname">First Name:</label> &nbsp;  </td>
+                        <td>&nbsp;</td>
+                        <td>   <input type="text" placeholder="" id="fname" name="fname" required >  </td>
+                       
+                        <td>   <label for="lname">Last Name: </label> &nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>    <input type="text" placeholder="" id="lname" name="lname" required> </td>
+
+                        <td>    <label for="username">Username: </label> &nbsp; </td>
+                        <td>&nbsp;</td>
+                        <td>    <input type="text" placeholder="" id="username" name="username" required>   </td>
+
+                       
+                    </tr>
+                    <tr>
+                        <td>    <label for="password">Password:</label> &nbsp;  </td>
+                        <td>&nbsp;</td>
+                        <td>    <input type="password" placeholder="" id="password" name="pswd" required>   </td>
+
+                        <td>    <label for="cpassword">Confirm Password</label> &nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>    <input type="password" placeholder="" id="cpassword" name="cpswd" required> </td>
+                
+                        <td>     <label for="eamail">Email</label>  &nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>    <input type="email" placeholder="" id="email" required name="email" required>   </td>
+                    </tr>
+
+                    <tr>
+                        <td > Gender</td>
+                       <td  >  <input type="radio" placeholder="" id="male" value="M" name="gender"> Male  </td>
+                       <td>  <input type="radio" placeholder="" id="female" value="F" name="gender">Female
+                       </td> 
+
+                       <td><label for="tel" >Phone Number</label>  &nbsp; </td>
+                    <td>&nbsp;</td>
+                    <td> <input type="text" placeholder="" id="tel" name="tel" required >              </td>
+                   
+                      
+                        <td><label for="region">Region of Residence   &nbsp;    </label> 
+                        <td>&nbsp;</td>
+                        <td><select placeholder="" id="region" name="region" required>
+                                <option value=""  selected> Select Region </option>
+                                <option value="Ahafo"> Ahafo </option>
+                                <option value="Ashanti">Ashanti</option>
+                                <option value="Bono"> Bono </option>
+                                <option value=" Bono East"> Bono East</option>
+                                <option value="Central">Central </option>
+                                <option value="Eastern">Eastern </option>
+                                <option value="Greater Accra">Greater Accra</option>
+                                <option value="North East">North East </option>
+                                <option value="Northern">Northern </option>
+                                <option value="Oti">Oti </option>
+                                <option value="Savannah">Savannah </option>
+                                <option value="Upper East"> Upper East </option>
+                                <option value="Upper West">Upper West </option>
+                                <option value="Volta"> Volta </option>
+                                <option value="Western North">Western North </option>
+                                <option value="Western">Western </option>
+                            </select></td> 
+                        </tr>
+                    </table>
+                    <input type="submit">
+               <label for="login_checkbox"> Alrady have an acount? </label> <a href="#"> Log In </a>
+                    <input type="reset">
+            </form>
+        </div>
+
+    </div>
+
+
+    
+ <footer>
+    <div>
+        <p>Subscripton</p>
+        <input type="text" placeholder="Your Email">
+        <button>Subscribe</button><br>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-youtube" aria-hidden="true"></i>
+        <i class="fas fa-instagram    "></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+    </div>
+    <div>
+        <p>How to Book</p>
+        <ul>
+            <li> <a href="#"> </a> </li>
+        </ul>
+    </div>
+    <div>
+        <p>Contact Us</p>
+        <ul>
+            <li> <a href="#"> <i class="fa fa-map-marker" aria-hidden="true"></i> Addres</a> </li>
+            <li> <a href="#"> </a><i class="fa fa-phone"> </i> +233 3456 432 </a> </li>
+            <li> <a href="#"> <i class="fa fa-envelope"></i> @gmail </a> </li>
+        </ul>
+    </div>
+</footer>
+</body>
+
+</html>

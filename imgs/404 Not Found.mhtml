@@ -1,0 +1,28 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost/dynasty_tours/vtoiur.php
+Subject: 404 Not Found
+Date: Thu, 29 Sep 2022 09:20:06 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--IGAuZIMJFpUTniNoSDxrYR8EZCi36jaKffd9ILHVKY----"
+
+
+------MultipartBoundary--IGAuZIMJFpUTniNoSDxrYR8EZCi36jaKffd9ILHVKY----
+Content-Type: text/html
+Content-ID: <frame-83AC956F55F6F7F74B30C6AF1C9AA0CD@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/dynasty_tours/vtoiur.php
+
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><meta http-eq=
+uiv=3D"Content-Type" content=3D"text/html; charset=3Dwindows-1252">
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<hr>
+<address>Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7 Server at localhost=
+ Port 80</address>
+
+</body></html>
+------MultipartBoundary--IGAuZIMJFpUTniNoSDxrYR8EZCi36jaKffd9ILHVKY------
